@@ -1,0 +1,23 @@
+[project]
+name = "aprendizaje-no-supervisado-student"
+version = "0.1.0"
+description = "Notebooks de Aprendizaje No Supervisado (K-Means, DBSCAN y PCA)."
+readme = "README.md"
+requires-python = "==3.14.*"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]
+
+[tool.uv]
+package = false
+# Usar siempre el Python administrado por uv (idéntico en local y en Codespaces)
+python-preference = "only-managed"
+required-version = ">=0.12.17"
