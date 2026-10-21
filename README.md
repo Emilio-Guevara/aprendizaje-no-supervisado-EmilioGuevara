@@ -7,7 +7,7 @@ Hands-on Jupyter Notebooks for the unsupervised learning module of the course (U
 Each session folder has the theory notebook (`fundamentos.ipynb`), the lab you complete in class (`caso_*.ipynb`) and the slides.
 
 **Session 0 — Foundations**
-- `00-fundamentos/fundamentos.ipynb`: Theory — supervised vs unsupervised, distances (euclidean, Manhattan, cosine, Haversine), why scaling matters, internal (silhouette, Davies-Bouldin, Calinski-Harabasz) and external (ARI) metrics
+- `00-fundamentos/fundamentos.ipynb`: Theory — supervised vs unsupervised, distances (euclidean, Manhattan, cosine, Haversine), why scaling matters, evaluating a clustering with the silhouette
 - `00-fundamentos/slides/`: Introduction to unsupervised learning
 
 **Session 1 — K-Means**
@@ -34,7 +34,7 @@ Each session folder has the theory notebook (`fundamentos.ipynb`), the lab you c
 **Extra material** (demos not worked in class)
 - `extra/mnist/compresion_mnist.ipynb`: Compressing MNIST digits with PCA
 - `extra/eigenfaces/eigenfaces.ipynb`: Eigenfaces and progressive face reconstruction (downloads ~200 MB the first time)
-- `extra/digits/pca_kmeans_digits.ipynb`: PCA before K-Means on handwritten digits, evaluated with ARI/NMI
+- `extra/digits/pca_kmeans_digits.ipynb`: PCA before K-Means on handwritten digits, evaluated with the silhouette and a crosstab against the real digit
 
 **Environment**
 - `pyproject.toml` / `uv.lock`: Project dependencies and the exact pinned versions
